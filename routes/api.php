@@ -14,10 +14,10 @@ Route::get('/user', function (Request $request) {
  * @method "POST
 */
 
-Route::post('/register', App\Http\Controllers\Api\RegisterController::class)->name('register');
+Route::post('public/api/register', App\Http\Controllers\Api\RegisterController::class)->name('register');
 
 /**
  * router "/login"
  * @method "POST"
  */
-Route::post('/login', App\Http\Controllers\Api\LoginController::class)->name('login');
+Route::post('public/api/login', App\Http\Controllers\Api\LoginController::class)->name('login');
