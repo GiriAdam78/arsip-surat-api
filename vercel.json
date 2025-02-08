@@ -12,6 +12,14 @@
      "dest": "public/index.php"
     },
     {
+        "src": "/js/(.*)", 
+        "dest": "/public/js/$1"
+    },
+    {
+        "src": "/build/(.*)", 
+        "dest": "/public/build/" 
+    },
+    {
     "src": "/(.*)",
         "dest":"/api/index.php"
     }],
