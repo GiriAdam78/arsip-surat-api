@@ -1,5 +1,6 @@
 {
     "version":2,
+    "framework": null,
     "functions":{
         "api/index.php": {
             "runtime":"vercel-php@0.7.3"
@@ -10,6 +11,7 @@
         "dest":"/api/index.php"
     }],
     "public":true,
+    "buildCommand": "vite build",
     "outputDirectory":"public",
     "env":{
         "APP_ENV":"production",
