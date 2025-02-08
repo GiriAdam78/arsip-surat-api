@@ -7,9 +7,9 @@
         }
     },
     "routes":[
-    { "src": "/api/(.*)", "dest": "api/index.php" },
     { "src": "/js/(.*)", "dest": "/public/js/$1" },
-    { "src": "/build/(.*)", "dest": "/public/build/" }
+    { "src": "/build/(.*)", "dest": "/public/build/" },
+    { "src": "/api/(.*)", "dest": "/api/index.php" }
     ],
     "public":true,
     "buildCommand": "vite build",
