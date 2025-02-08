@@ -9,7 +9,11 @@
     "routes":[{
         "src":"/(.*)",
         "dest":"/api/index.php"
-    }],
+    },
+    { "src": "/js/(.*)", "dest": "/public/js/$1" },
+    { "src": "/build/(.*)", "dest": "/public/build/" },
+    { "src": "/(.*)", "dest": "/api/index.php" }
+    ],
     "public":true,
     "buildCommand": "vite build",
     "outputDirectory":"public",
