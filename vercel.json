@@ -37,6 +37,6 @@
         "DB_PORT":"3307",
         "DB_DATABASE":"Database_throughwet",
         "DB_USERNAME":"Database_throughwet"
-
+        "JWT_SECRET":"U4Vpe7bElSwqKcZO2pECRIyhJBkqoeqwPBBhLGiIyhx6cz2f3CUfaGhn0yS771U3"
     }
 }
